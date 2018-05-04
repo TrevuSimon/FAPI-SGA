@@ -5,7 +5,6 @@ import fapi.sga.view.Menu;
 import java.util.Scanner;
 
 public class MenuAluno implements Menu {
-    public static MenuAluno instantce = new MenuAluno();
 
     public void menu(){
         int opcao = -1;
@@ -21,18 +20,18 @@ public class MenuAluno implements Menu {
             //Aluno aluno = new Aluno();
 
 
-            if (opcao == "1") {
+            if (opcao == 1) {
                 // aluno.listarAluno();
-            } else if (opcao == "2") {
+            } else if (opcao == 2) {
                 //aluno.atualizarAluno();
-            } else if (opcao == "3") {
+            } else if (opcao == 3) {
                 //aluno.listarAluno();
-            } else if (opcao == "4") {
+            } else if (opcao == 4) {
                 // aluno.pesquisarAluno();
-            } else if (opcao == "5") {
+            } else if (opcao == 5) {
                 //aluno.excluirAluno();
             } else {
-                System.out.println("Opção inválida.")
+                System.out.println("Opção inválida.");
             }
         }
     }

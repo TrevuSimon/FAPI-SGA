@@ -11,9 +11,9 @@ public class MenuMain implements Menu{
         int escolha = 0;
         Scanner scanner = new Scanner(System.in);
         do{
-            System.out.println("1 - Cadastrar aluno.");
-            System.out.println("2 - Atualizar aluno.");
-            System.out.println("3 - Listar aluno.");
+            System.out.println("1 - Aluno.");
+            System.out.println("2 - Sala.");
+            System.out.println("3 - Turma.");
             escolha = scanner.nextInt();
             Menu menu;
             switch (escolha) {

@@ -5,6 +5,7 @@ import fapi.sga.view.Menu;
 import java.util.Scanner;
 
 public class MenuTurma implements Menu {
+
     public void menu(){
         int opcao = -1;
         while(opcao != 0){
@@ -18,23 +19,23 @@ public class MenuTurma implements Menu {
            // Sala sala = new Sala();
         }
 
-        if(opcao == "1"){
+        if(opcao == 1){
             //sala.listarSala();
         }
-        else if (opcao == "2"){
+        else if (opcao == 2){
             //sala.atualizarSala();
         }
-        else if (opcao == "3"){
+        else if (opcao == 3){
             //sala.listarSala();
         }
-        else if (opcao == "4"){
+        else if (opcao == 4){
            // sala.pesquisarSala();
         }
-        else if (opcao == "5"){
+        else if (opcao == 5){
            // sala.excluirSala();
         }
         else {
-            System.out.println ("Opção inválida.")
+            System.out.println ("Opção inválida.");
         }
     }
 }

@@ -5,6 +5,7 @@ import fapi.sga.view.Menu;
 import java.util.Scanner;
 
 public class MenuSala implements Menu {
+
     public void menu(){
         int opcao = -1;
         while(opcao != 0) {
@@ -18,18 +19,18 @@ public class MenuSala implements Menu {
             //Protocolo protocolo = new Protocolo();
 
 
-            if (opcao == "1") {
+            if (opcao == 1) {
                 // protocolo.listarProtocolo();
-            } else if (opcao == "2") {
+            } else if (opcao == 2) {
                 //protocolo.atualizarProtocolo();
-            } else if (opcao == "3") {
+            } else if (opcao == 3) {
                 // protocolo.listarProtocolo();
-            } else if (opcao == "4") {
+            } else if (opcao == 4) {
                 //protocolo.pesquisarProtocolo();
-            } else if (opcao == "5") {
+            } else if (opcao == 5) {
                 // protocolo.excluirProtocolo();
             } else {
-                System.out.println("Opção inválida.")
+                System.out.println("Opção inválida.");
             }
         }
     }
