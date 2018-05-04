@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/fapisga.iml" filepath="$PROJECT_DIR$/fapisga.iml" />
+      <module fileurl="file://$PROJECT_DIR$/fapisgacontroller/fapisgacontroller.iml" filepath="$PROJECT_DIR$/fapisgacontroller/fapisgacontroller.iml" />
+      <module fileurl="file://$PROJECT_DIR$/fapisgamodule/fapisgamodule.iml" filepath="$PROJECT_DIR$/fapisgamodule/fapisgamodule.iml" />
+      <module fileurl="file://$PROJECT_DIR$/fapisgaview/fapisgaview.iml" filepath="$PROJECT_DIR$/fapisgaview/fapisgaview.iml" />
+    </modules>
+  </component>
+</project>
